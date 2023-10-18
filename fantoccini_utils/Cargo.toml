@@ -1,0 +1,15 @@
+[package]
+name = "fantoccini_utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error_utils = { path = "../error_utils" }
+fantoccini = "0.19.3"
+strum = { version = "0.25.0", features = ["derive", "strum_macros"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
+url = "2.4.1"
+
