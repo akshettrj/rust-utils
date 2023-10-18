@@ -1,0 +1,3 @@
+[workspace]
+members = ["teloxide_utils", "error_utils"]
+resolver = "2"
